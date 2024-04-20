@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'atelier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mon Premier Projet d'atelier</h1>
+    <form action="traitement.php" method="POST">
+        <label for="branche">Branche d'activité :</label>
+        <input type="text" id="branche" name="branche" required><br>
+    
+        <label for="corps_metier">Corps d'un métier :</label>
+        <textarea id="corps_metier" name="corps_metier" required></textarea><br>
+    
+        <h2>CHEF D'ATELIER</h2>
+        <label for="chef_nom">Nom :</label>
+        <input type="text" id="chef_nom" name="chef_nom" required><br>
+        <label for="chef-prenom">Prénoms:</label>
+        <input type="text" itemid="chef-prenom" name="chef-prenom" required><br>
+        <label for="chef-contact telephonique">Contact téléphonique:</label>
+        <input type="text" itemid="chef-contact telephonique" name="Contact telephonique" required><br>
+        <label for="chef-WhatsApp">WatsApp:</label>
+        <input type="text" itemid="chef-contact" name="width" required><br>
+    
+        <label for="chef_contacts">Contacts :</label>
+        <input type="text" id="chef_contacts" name="chef_contacts" required><br>
+    
+        <h2>ADJOINT AU CHEF DE L'ATELIER </h2>
+        <label for="adjoint_nom">Nom :</label>
+        <input type="text" id="adjoint_nom" name="adjoint_nom" required><br>
+    
+        <label for="adjoint_contacts">Contacts :</label>
+        <input type="text" id="adjoint_contacts" name="adjoint_contacts" required><br>
+    
+        <label for="specialites">Métiers pratiqués (spécialités) :</label>
+        <input type="text" id="specialites" name="specialites" required><br>
+    
+        <h2>Adresse de l'atelier</h2>
+        <label for="ville">Ville :</label>
+        <input type="text" id="ville" name="ville" required><br>
+    
+        <label for="commune">Commune :</label>
+        <input type="text" id="commune" name="commune" required><br>
+    
+        <label for="quartier">Quartier :</label>
+        <input type="text" id="quartier" name="quartier" required><br>
+    
+        <label for="sous_quartier">Sous-quartier :</label>
+        <input type="text" id="sous_quartier" name="sous_quartier" required><br>
+    
+        <label for="gps">Position GPS :</label>
+        <input type="text" id="gps" name="gps" required><br>
+    
+        <input type="submit" value="Envoyer">
+    </form>    
+</body>
+</html>

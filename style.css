@@ -1,0 +1,72 @@
+/*Appliquons les styles de base au formulaire*/
+form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+h1, h2, h3 {
+    color: #333;
+}
+label{ype
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+input[text="text"],
+textarea{
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[text="submit"] {
+    background: color #4caf50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+/*Appliquons des styles spécifiques aux sections du formulaires */
+h2, h3 {
+    margin-top: 20px;
+    color: #555;
+}
+/*Ajouter de l'espace entre les sections */
+h2:not(:first-of-type),
+h3 {
+    margin-top: 40px;
+}
+/*Appliquons des styles aux champs requis */
+input:required,
+textarea:required {
+    border-color: #ff0000;
+}
+/*Ajouter un style aux messages d'erreur */
+input:invalid,
+textarea:invalid {
+    border-color: #ff0000;
+}
+input:invalid:required,
+textarea:invalid:required {
+    background-image: url("error.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 16px 16px;
+    padding-right: 24px;
+}
+/*Appliquons des styles spécifiques aux champs d'adresse */
+#ville,
+#commune,
+#quartier,
+#sous-quartier {
+    width: 70p%;
+
+}
+#gps {
+    width: 90%;
+}

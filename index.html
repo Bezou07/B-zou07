@@ -2,59 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulaire d'atelier</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/inscription.css">
+    <title>Document</title>
+
+
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
-<body>
-    <h1>Mon Premier Projet d'atelier</h1>
-    <form action="traitement.php" method="POST">
-        <label for="branche">Branche d'activité :</label>
-        <input type="text" id="branche" name="branche" required><br>
+<body style="background-color: #fd5d14;">
+    <div class="container">
+        <div class="row d-flex justify-content-center align-items-center" style="height: 100vh;">
+            <div class="col-6">
+                <center>
+                    <div style="border: 15px solid #f4f6f8; border-radius: 25px; background-color: #f4f6f8; margin-top: 50px; margin-bottom: 50px; width: 400px; position: relative; left: 20px;">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12">
+                                    <h3 class="text-center"><a href="#"><img src="image/WhatsApp_Image_2024-05-30_at_13.38.45-removebg-preview.png" alt="" style="width: 50px; height: 50px;"></a> <span style="color: #f4f6f8;">Inscrivez-vous en tant que Client</span></h3>
+                                    <center><img src="image/fait.png" alt="image" style="width: 100px; height: 100px; position: relative; bottom: 10px;"></center>
+                                    <div>
+                                        <p style="font-weight: bolder;" class="text-center">
+                                            Vous avez mis à jour votre profil
+                                        </p>
+                                    </div>
+                                    <p style="color: #f4f6f8;">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro ratione <br>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et consequunt
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
     
-        <label for="corps_metier">Corps d'un métier :</label>
-        <textarea id="corps_metier" name="corps_metier" required></textarea><br>
-    
-        <h2>CHEF D'ATELIER</h2>
-        <label for="chef_nom">Nom :</label>
-        <input type="text" id="chef_nom" name="chef_nom" required><br>
-        <label for="chef-prenom">Prénoms:</label>
-        <input type="text" itemid="chef-prenom" name="chef-prenom" required><br>
-        <label for="chef-contact telephonique">Contact téléphonique:</label>
-        <input type="text" itemid="chef-contact telephonique" name="Contact telephonique" required><br>
-        <label for="chef-WhatsApp">WatsApp:</label>
-        <input type="text" itemid="chef-contact" name="width" required><br>
-    
-        <label for="chef_contacts">Contacts :</label>
-        <input type="text" id="chef_contacts" name="chef_contacts" required><br>
-    
-        <h2>ADJOINT AU CHEF DE L'ATELIER </h2>
-        <label for="adjoint_nom">Nom :</label>
-        <input type="text" id="adjoint_nom" name="adjoint_nom" required><br>
-    
-        <label for="adjoint_contacts">Contacts :</label>
-        <input type="text" id="adjoint_contacts" name="adjoint_contacts" required><br>
-    
-        <label for="specialites">Métiers pratiqués (spécialités) :</label>
-        <input type="text" id="specialites" name="specialites" required><br>
-    
-        <h2>Adresse de l'atelier</h2>
-        <label for="ville">Ville :</label>
-        <input type="text" id="ville" name="ville" required><br>
-    
-        <label for="commune">Commune :</label>
-        <input type="text" id="commune" name="commune" required><br>
-    
-        <label for="quartier">Quartier :</label>
-        <input type="text" id="quartier" name="quartier" required><br>
-    
-        <label for="sous_quartier">Sous-quartier :</label>
-        <input type="text" id="sous_quartier" name="sous_quartier" required><br>
-    
-        <label for="gps">Position GPS :</label>
-        <input type="text" id="gps" name="gps" required><br>
-    
-        <input type="submit" value="Envoyer">
-    </form>    
+
+
+
+
+
+    <!-- BOOTSTRAP JS -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
